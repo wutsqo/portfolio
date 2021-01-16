@@ -1,23 +1,22 @@
 import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
-import Layout from "../components/Layout"
+import Layout from "../components/layout"
 import { FaRegEnvelope, FaGithub } from "react-icons/fa"
 
 export default function Home() {
   return (
     <Layout>
-      <Container className="mt-5 pt-5">
-        <Row style={{ height: "80vh" }}>
-          <Col className="py-5">
+      <Container className="mt-5 pt-3">
+        <Row>
+          <Col className="py-3">
             <Typer
               dataText={[
                 "Hi There!    ",
-                "!مرحبا    ",
+                "! السلام عليكم    ",
                 "Halo!    ",
                 "こんにちは！    ",
               ]}
             ></Typer>
-            <h1>I'm Muhammad Urwatil Wutsqo</h1>
             <p>
               Computer Science Student from Indonesia 🇮🇩 <br />
               Seems you just discovered my personal space on the internet.
@@ -95,10 +94,13 @@ class Typer extends React.Component {
 
   render() {
     return (
-      <h1>
-        <span>{this.state.text}</span>
-        <span>&nbsp;</span>
-      </h1>
+      <div>
+        <h2>
+          <span>{this.state.text}</span>
+          <span>&nbsp;</span>
+        </h2>
+        <h1>I'm Muhammad Urwatil Wutsqo</h1>
+      </div>
     )
   }
 }
