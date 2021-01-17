@@ -1,7 +1,7 @@
 import React from "react"
 import { Col, Container, Row } from "react-bootstrap"
 import Layout from "../components/layout"
-import { graphql, useStaticQuery } from "gatsby"
+import { Link, graphql, useStaticQuery } from "gatsby"
 
 const CuratedPage = () => {
   const data = useStaticQuery(graphql`
@@ -14,6 +14,9 @@ const CuratedPage = () => {
               date
             }
             excerpt
+            fields {
+              slug
+            }
           }
         }
       }
@@ -31,7 +34,9 @@ const CuratedPage = () => {
               {data.allMarkdownRemark.edges.map(edge => {
                 return (
                   <li>
-                    <h3>{edge.node.frontmatter.title}</h3>
+                    <Link to={`/blog/${edge.node.fields.slug}`}>
+                      <h3>{edge.node.frontmatter.title}</h3>
+                    </Link>
                     <p>{edge.node.frontmatter.date}</p>
                   </li>
                 )
