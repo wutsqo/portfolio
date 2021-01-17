@@ -1,5 +1,5 @@
 import React from "react"
-import { Col, Container, Form, Row } from "react-bootstrap"
+import { Col, Container, Row } from "react-bootstrap"
 import Layout from "../components/layout"
 
 const ReviewsPage = () => {

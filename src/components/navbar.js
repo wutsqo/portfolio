@@ -1,12 +1,16 @@
 import { Navbar, Nav } from "react-bootstrap"
 import { Link } from "gatsby"
-import React, { Component } from "react"
+import React from "react"
 import { FaHome } from "react-icons/fa"
 import navbarStyles from "./navbar.module.scss"
 
 function MyNavbar() {
   return (
-    <Navbar expand="lg" variant="dark" className="sticky-top">
+    <Navbar
+      expand="lg"
+      variant="dark"
+      className={[navbarStyles.navbar, "sticky-top"].join(" ")}
+    >
       <Navbar.Brand as={Link} to="/">
         <FaHome />
       </Navbar.Brand>

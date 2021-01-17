@@ -11,5 +11,15 @@ module.exports = {
     author: "Muhammad Urwatil Wutsqo",
     description: "Welcome to my personal website!",
   },
-  plugins: ["gatsby-plugin-sass"],
+  plugins: [
+    "gatsby-plugin-sass",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "src",
+        path: `${__dirname}/src/`,
+      },
+    },
+    "gatsby-transformer-remark",
+  ],
 }

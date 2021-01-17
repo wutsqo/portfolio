@@ -1,11 +1,26 @@
 import { Container } from "react-bootstrap"
-import React, { Component } from "react"
-import { FaHeart } from "react-icons/fa"
+import React from "react"
+import { graphql, useStaticQuery } from "gatsby"
+import Emoji from "./emoji"
 
 function MyFooter() {
+  const author = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          author
+        }
+      }
+    }
+  `)
+
   return (
-    <Container>
-      <p>Made with  <FaHeart /> by Wutsqo ©2021</p>
+    <Container className="text-center my-5">
+      <small className="text-center">
+        Copyright ©2021 {author.site.siteMetadata.author} <br />
+        Handcrafted with <Emoji label="Love" symbol="❤️" /> using React JS and
+        Gatsby
+      </small>
     </Container>
   )
 }

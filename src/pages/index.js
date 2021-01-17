@@ -2,11 +2,12 @@ import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
 import Layout from "../components/layout"
 import { FaRegEnvelope, FaGithub } from "react-icons/fa"
+import Emoji from "../components/emoji"
 
 export default function Home() {
   return (
     <Layout>
-      <Container className="mt-5 pt-3">
+      <Container className="mt-5 pt-5" style={{ minHeight: "100vh" }}>
         <Row>
           <Col className="py-3">
             <Typer
@@ -18,7 +19,9 @@ export default function Home() {
               ]}
             ></Typer>
             <p>
-              Computer Science Student from Indonesia 🇮🇩 <br />
+              Computer Science Student from Indonesia{" "}
+              <Emoji label="Indonesia" symbol="🇮🇩" />
+              <br />
               Seems you just discovered my personal space on the internet.
               Enjoy!
             </p>
@@ -27,16 +30,18 @@ export default function Home() {
                 href="https://github.com/wutsqo"
                 target="_blank"
                 style={{ color: "white" }}
+                rel="noopener noreferrer"
               >
-                <FaGithub></FaGithub>
+                <FaGithub />
               </a>
               &nbsp;&nbsp;
               <a
                 href="mailto:mail@wutsqo.me"
                 target="_blank"
                 style={{ color: "white" }}
+                rel="noopener noreferrer"
               >
-                <FaRegEnvelope></FaRegEnvelope>
+                <FaRegEnvelope />
               </a>
             </h2>
           </Col>
