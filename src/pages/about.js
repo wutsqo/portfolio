@@ -1,6 +1,7 @@
 import React from "react"
 import { Col, Container, Row } from "react-bootstrap"
 import Layout from "../components/layout"
+import ProjectCard from "../components/project-card"
 
 const AboutPage = () => {
   return (
@@ -10,8 +11,9 @@ const AboutPage = () => {
           <Col>
             <h4>call me wutsqo.</h4>
             <p>
-              i am 19 years old. i love to read, watch, and code. aiming to be a
-              fullstack web developer in the near future
+              i am 19 years old. i love to read, watch, and code. i like playing
+              valorant as well. aiming to be a fullstack web developer in the
+              near future.
             </p>
             <br />
             <h4>education</h4>
@@ -31,11 +33,9 @@ const AboutPage = () => {
             <p>
               <li>language: python, java, html, css, javascript</li>
               <li>framework: django, bootstrap, reactjs, gatsby</li>
-              <li>tools: git, figma, inkscape</li>
+              <li>tools: git, figma, inkscape, vscode</li>
             </p>
             <br />
-            <h4>Projects</h4>
-            <p>coming soon</p>
           </Col>
         </Row>
       </Container>

@@ -24,3 +24,11 @@ $darkblue: #0E141B;
     flex-grow: 1;
     padding: 3rem 0rem 3rem 0rem;
 }
+
+.project-card {
+    background-color: $lightblue;
+    color: inherit;
+    border: 1px solid $lightblue;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}

@@ -23,6 +23,9 @@ function MyNavbar() {
           <Nav.Link as={Link} activeClassName="active" to="/about">
             about
           </Nav.Link>
+          <Nav.Link as={Link} activeClassName="active" to="/projects">
+            projects
+          </Nav.Link>
           <Nav.Link as={Link} activeClassName="active" to="/posts">
             curated
           </Nav.Link>
