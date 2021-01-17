@@ -18,7 +18,7 @@ function MyFooter() {
     <Container className="text-center py-5">
       <small className="text-center">
         Copyright ©2021 {author.site.siteMetadata.author} <br />
-        Handcrafted with <Emoji label="Love" symbol="❤️" /> using React JS and
+        Handcrafted with <Emoji label="Love" symbol="❤️" /> using ReactJS +
         Gatsby
       </small>
     </Container>

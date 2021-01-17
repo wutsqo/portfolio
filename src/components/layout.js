@@ -11,7 +11,9 @@ const Layout = props => {
     <div>
       <div className={layoutStyles.header}>
         <MyNavbar />
-        <Header content={props.headerTitle} />
+        <div className={layoutStyles.container} style={{ minHeight: "auto" }}>
+          <Header data={props} />
+        </div>
       </div>
       <div className={layoutStyles.container}>
         <div className={layoutStyles.content}>{props.children}</div>

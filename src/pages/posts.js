@@ -24,23 +24,20 @@ const CuratedPage = () => {
   `)
 
   return (
-    <Layout headerTitle="Curated by Me">
+    <Layout headerTitle="curated by me">
       <Container className="my-3">
         <Row>
           <Col>
-            <p> </p>
-            <ol>
-              {data.allMarkdownRemark.edges.map(edge => {
-                return (
-                  <li>
-                    <Link to={`/blog/${edge.node.fields.slug}`}>
-                      <h3>{edge.node.frontmatter.title}</h3>
-                    </Link>
-                    <p>{edge.node.frontmatter.date}</p>
-                  </li>
-                )
-              })}
-            </ol>
+            {data.allMarkdownRemark.edges.map(edge => {
+              return (
+                <div>
+                  <Link to={`/blog/${edge.node.fields.slug}`}>
+                    <h3>{edge.node.frontmatter.title}</h3>
+                  </Link>
+                  <p>{edge.node.frontmatter.date}</p>
+                </div>
+              )
+            })}
           </Col>
         </Row>
       </Container>

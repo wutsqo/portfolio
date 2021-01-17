@@ -9,7 +9,7 @@ export default function Home() {
     <Layout>
       <Container className="mt-5 pt-5">
         <Row>
-          <Col className="py-3">
+          <Col className="py-5">
             <Typer
               dataText={[
                 "Hi There!    ",

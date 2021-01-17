@@ -9,7 +9,7 @@ function MyNavbar() {
     <Navbar
       expand="lg"
       variant="dark"
-      className={[navbarStyles.navbar, "sticky-top"].join(" ")}
+      className={[navbarStyles.navbar, "fixed-top"].join(" ")}
     >
       <Navbar.Brand as={Link} to="/">
         <FaHome />
@@ -21,13 +21,10 @@ function MyNavbar() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
           <Nav.Link as={Link} activeClassName="active" to="/about">
-            About
+            about
           </Nav.Link>
-          <Nav.Link as={Link} activeClassName="active" to="/curated">
-            Curated
-          </Nav.Link>
-          <Nav.Link as={Link} activeClassName="active" to="/reviews">
-            Reviews
+          <Nav.Link as={Link} activeClassName="active" to="/posts">
+            curated
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
