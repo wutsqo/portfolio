@@ -54,6 +54,12 @@ const ProjectPage = () => {
         url: "https://lib.wutsqo.me",
         desc: "My Personal Library Website",
       },
+      {
+        title: "Evaluasi Wutsqo",
+        tools: ["Python", "Django", "MaterialCSS"],
+        url: "https://eval.wutsqo.me",
+        desc: "A platform where people can send me anonymous messages",
+      },
     ],
   }
 
