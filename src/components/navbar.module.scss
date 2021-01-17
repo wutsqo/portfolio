@@ -4,9 +4,11 @@
 }
 
 .link {
-    color: white;
+    color: inherit;
 }
 
 .navbar {
-    background-color: #252525;
+    background-color: initial;
+    max-width: 960px;
+    margin: auto;
 }

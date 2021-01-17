@@ -4,12 +4,11 @@ import Layout from "../components/layout"
 
 const ReviewsPage = () => {
   return (
-    <Layout>
+    <Layout headerTitle="Reviews by Me">
       <Container className="my-3">
         <Row>
           <Col>
-            <h2 className="text-center">Reviews by Me</h2>
-            <p>under construction</p>
+            <p> </p>
           </Col>
         </Row>
       </Container>

@@ -1,9 +1,27 @@
+$lightblue: #182635;
+
+.footer {
+    background-color: $lightblue;
+}
+
+.header {
+    background-color: $lightblue;
+    color: white;
+}
+
 .container {
     display: flex;
     margin: auto;
     max-width: 960px;
     flex-direction: column;
     min-height: 100vh;
+}
+
+.container-header {
+    display: flex;
+    margin: auto;
+    max-width: 960px;
+    flex-direction: column;
 }
 
 .content {

@@ -24,12 +24,11 @@ const CuratedPage = () => {
   `)
 
   return (
-    <Layout>
+    <Layout headerTitle="Curated by Me">
       <Container className="my-3">
         <Row>
           <Col>
-            <h2 className="text-center">Curated by Me</h2>
-            <p>under construction</p>
+            <p> </p>
             <ol>
               {data.allMarkdownRemark.edges.map(edge => {
                 return (

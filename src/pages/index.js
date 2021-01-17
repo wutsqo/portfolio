@@ -7,7 +7,7 @@ import Emoji from "../components/emoji"
 export default function Home() {
   return (
     <Layout>
-      <Container className="mt-5 pt-5" style={{ minHeight: "100vh" }}>
+      <Container className="mt-5 pt-5">
         <Row>
           <Col className="py-3">
             <Typer
