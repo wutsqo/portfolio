@@ -1,6 +1,10 @@
 import React from "react"
+import Head from "../components/head"
 import Layout from "../components/layout"
 import ProjectCard from "../components/project-card"
+import medisale from "../images/medisale.png"
+import royah from "../images/royatulaliyah.jpg"
+import personalsite from "../images/personalsite.png"
 
 const ProjectPage = () => {
   const projectList = {
@@ -10,12 +14,14 @@ const ProjectPage = () => {
         tools: ["Python", "Django", "Bootstrap"],
         url: "https://gitlab.com/wutsqo/tk2-ppw",
         desc: "E-commerce platform. My midterm group project.",
+        image: medisale,
       },
       {
         title: "Personal Website",
         tools: ["NodeJS", "ReactJS", "Gatsby", "Bootstrap"],
         url: "https://github.com/wutsqo/portfolio",
         desc: "This website, handcrafted from scratch using Gatsby",
+        image: personalsite,
       },
       {
         title: "Kokorobot Line",
@@ -28,6 +34,7 @@ const ProjectPage = () => {
         tools: ["Python", "Django", "Bootstrap"],
         url: "https://royatulaliyah.wutsqo.me",
         desc: "Website Angkatan 6 SMAN 1 Sumatera Barat",
+        image: royah,
       },
       {
         title: "Board of Thoughts",
@@ -45,7 +52,7 @@ const ProjectPage = () => {
       {
         title: "PPW Story",
         tools: ["Python", "Django", "Bootstrap"],
-        url: "https://gitlab.com/wutsqo/ppwstory",
+        url: "https://gitlab.com/wutsqo/story-ppw",
         desc: "A Collection of my PPW Course Assigments",
       },
       {
@@ -65,6 +72,7 @@ const ProjectPage = () => {
 
   return (
     <Layout headerTitle="projects by me">
+      <Head title="Projects" />
       {projectList.items.map(item => (
         <ProjectCard data={item} />
       ))}

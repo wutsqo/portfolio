@@ -12,6 +12,7 @@ module.exports = {
     description: "Welcome to my personal website!",
   },
   plugins: [
+    "gatsby-plugin-react-helmet",
     "gatsby-plugin-sass",
     {
       resolve: "gatsby-source-filesystem",

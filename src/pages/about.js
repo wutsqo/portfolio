@@ -1,11 +1,12 @@
 import React from "react"
 import { Col, Container, Row } from "react-bootstrap"
+import Head from "../components/head"
 import Layout from "../components/layout"
-import ProjectCard from "../components/project-card"
 
 const AboutPage = () => {
   return (
     <Layout headerTitle="about">
+      <Head title="About" />
       <Container className="my-3">
         <Row>
           <Col>

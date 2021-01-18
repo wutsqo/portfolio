@@ -3,10 +3,12 @@ import { Container, Row, Col } from "react-bootstrap"
 import Layout from "../components/layout"
 import { FaRegEnvelope, FaGithub } from "react-icons/fa"
 import Emoji from "../components/emoji"
+import Head from "../components/head"
 
 export default function Home() {
   return (
     <Layout>
+      <Head title="Homepage"></Head>
       <Container className="mt-5 pt-5">
         <Row>
           <Col className="py-5">
