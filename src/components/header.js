@@ -11,7 +11,9 @@ const Header = props => {
       {props.data.frontmatter ? (
         <div>
           <h1 className="pt-5 mt-5">{props.data.frontmatter.title}</h1>
-          <p>{props.data.frontmatter.date}</p>
+          <p>
+            {props.data.frontmatter.date} • {props.data.frontmatter.author}
+          </p>
         </div>
       ) : null}
     </div>

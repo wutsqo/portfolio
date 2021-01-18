@@ -2,6 +2,7 @@ import React from "react"
 import { Col, Container, Row } from "react-bootstrap"
 import Layout from "../components/layout"
 import { Link, graphql, useStaticQuery } from "gatsby"
+import postsStyles from "./posts.module.scss"
 
 const CuratedPage = () => {
   const data = useStaticQuery(graphql`
@@ -30,9 +31,9 @@ const CuratedPage = () => {
           <Col>
             {data.allMarkdownRemark.edges.map(edge => {
               return (
-                <div>
+                <div className={postsStyles.post}>
                   <Link to={`/blog/${edge.node.fields.slug}`}>
-                    <h3>{edge.node.frontmatter.title}</h3>
+                    <h4>{edge.node.frontmatter.title}</h4>
                   </Link>
                   <p>{edge.node.frontmatter.date}</p>
                 </div>

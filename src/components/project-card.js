@@ -29,7 +29,7 @@ const ProjectCard = props => {
               <span>{item} &nbsp; </span>
             ))}
           </small>
-          <hr />
+
           <p>{props.data.desc}</p>
         </Col>
       </Row>

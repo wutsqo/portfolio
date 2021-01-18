@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
 
 $darkgrey: #252525;
 $lightblue: #182635;
@@ -41,4 +41,20 @@ header, footer {
 
 a, a:hover {
   color: white;
+}
+
+blockquote {
+  border-left: 3px solid white;
+  padding: 5px 1rem 5px 1rem;
+  background-color: $lightblue;
+  
+}
+
+blockquote > p {
+  font-weight: 300;
+  font-size: large;
+}
+
+hr {
+  border-color: $lightblue;
 }
