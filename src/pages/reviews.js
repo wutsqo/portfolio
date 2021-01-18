@@ -4,11 +4,11 @@ import Layout from "../components/layout"
 
 const ReviewsPage = () => {
   return (
-    <Layout headerTitle="Reviews by Me">
-      <Container className="my-3">
+    <Layout headerTitle="reviews">
+      <Container className="py-0">
         <Row>
           <Col>
-            <p> </p>
+            <p className="text-center">Books | Movies</p>
           </Col>
         </Row>
       </Container>

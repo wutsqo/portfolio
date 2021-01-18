@@ -52,11 +52,12 @@ blockquote {
 
 blockquote > p {
   font-weight: 300;
-  font-size: large;
+  font-size: larger;
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
 hr {
   border-color: $lightblue;
+  border: 1px solid;
 }

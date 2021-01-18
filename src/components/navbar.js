@@ -29,6 +29,9 @@ function MyNavbar() {
           <Nav.Link as={Link} activeClassName="active" to="/posts">
             curated
           </Nav.Link>
+          <Nav.Link as={Link} activeClassName="active" to="/reviews">
+            reviews
+          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

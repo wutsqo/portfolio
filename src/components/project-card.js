@@ -27,24 +27,26 @@ const ProjectCard = props => {
           )}
         </Col>
         <Col className="p-3">
-          <h5>{props.data.title} </h5>
+          <div className="px-3">
+            <h5>{props.data.title} </h5>
 
-          {/*
-          <span>
-            {props.data.tools.map(item => (
-              <small>
-                <Button variant="outline-light" size="sm">
-                  {item}
-                </Button>
-                &nbsp;
-              </small>
-            ))}
-          </span>
-            */}
-          <p>{props.data.desc}</p>
-          <a href={props.data.url} target="_blank" rel="noopener noreferrer">
-            <Button size="sm">See Project</Button>
-          </a>
+            {/*
+<span>
+  {props.data.tools.map(item => (
+    <small>
+      <Button variant="outline-light" size="sm">
+        {item}
+      </Button>
+      &nbsp;
+    </small>
+  ))}
+</span>
+  */}
+            <p>{props.data.desc}</p>
+            <a href={props.data.url} target="_blank" rel="noopener noreferrer">
+              <Button size="sm">See Project</Button>
+            </a>
+          </div>
         </Col>
       </Row>
     </Card>
