@@ -13,13 +13,17 @@ export const query = graphql`
         author
       }
       html
+      timeToRead
     }
   }
 `
 
 const Blog = props => {
   return (
-    <Layout frontmatter={props.data.markdownRemark.frontmatter}>
+    <Layout
+      frontmatter={props.data.markdownRemark.frontmatter}
+      timeToRead={props.data.markdownRemark.timeToRead}
+    >
       <Head title={props.data.markdownRemark.frontmatter.title} />
       <div
         className={blogStyles.content}

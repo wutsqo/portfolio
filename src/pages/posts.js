@@ -19,6 +19,7 @@ const CuratedPage = () => {
             fields {
               slug
             }
+            timeToRead
           }
         }
       }
@@ -34,10 +35,13 @@ const CuratedPage = () => {
             {data.allMarkdownRemark.edges.map(edge => {
               return (
                 <div className={postsStyles.post}>
-                  <Link to={`/blog/${edge.node.fields.slug}`}>
+                  <Link to={`/${edge.node.fields.slug}`}>
                     <h4>{edge.node.frontmatter.title}</h4>
                   </Link>
-                  <p>{edge.node.frontmatter.date}</p>
+                  <p>
+                    <i>{edge.node.frontmatter.date}</i> &nbsp; • &nbsp;{" "}
+                    {edge.node.timeToRead} mins read
+                  </p>
                 </div>
               )
             })}

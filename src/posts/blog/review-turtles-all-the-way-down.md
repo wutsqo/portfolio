@@ -4,7 +4,7 @@ date: "January 18, 2021"
 author: "Muhammad Urwatil Wutsqo"
 ---
 
-> Versi original dari tulisan ini ditulis pada tanggal 30 Januari 2019
+> TLDR: Recommended. 4/5 stars.
 
 Setelah sukses besar dengan novel _The Fault in Our Stars_, John Green kembali menerbitkan novel baru berjudul Turtles All The Way Down. Buku ini mungkin termasuk salah satu buku yang sulit untuk disukai oleh sebagian orang.
 
@@ -30,6 +30,8 @@ Singkatnya, novel ini menegaskan Green sebagai penulis kehidupan remaja yang heb
 
 ---
 
-#### Tambahan (18 Januari 2021)
+### Related Links
 
-personal review: recommended. 4/5 stars.
+- [Medium Post](https://wutsqo.medium.com/resensi-novel-turtles-all-the-way-down-c3dbba88c5b7)
+
+- [Goodreads Page](https://www.goodreads.com/book/show/39800802-turtles-all-the-way-down)

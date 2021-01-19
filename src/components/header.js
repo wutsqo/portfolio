@@ -12,7 +12,9 @@ const Header = props => {
         <div>
           <h1 className="pt-5 mt-5">{props.data.frontmatter.title}</h1>
           <p>
-            {props.data.frontmatter.date} • {props.data.frontmatter.author}
+            {props.data.frontmatter.date} &nbsp; • &nbsp;
+            {props.data.frontmatter.author} <br />
+            {props.data.timeToRead + 1} mins read
           </p>
         </div>
       ) : null}
