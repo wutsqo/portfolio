@@ -25,11 +25,46 @@ const CuratedPage = () => {
       }
     }
   `)
+  /*
+  const [state, setState] = useState({
+    filteredPosts: [],
+    query: "",
+  })
+
+  const handleInputChange = event => {
+    const query = event.target.value
+    const filteredPosts = data.allMarkdownRemark.edges.filter(post => {
+      const { description, title, tags } = post.node.frontmatter
+      return (
+        description.toLowerCase().includes(query.toLowerCase()) ||
+        title.toLowerCase().includes(query.toLowerCase()) ||
+        (tags && tags.join("").toLowerCase().includes(query.toLowerCase()))
+      )
+    })
+    setState({
+      query,
+      filteredPosts,
+    })
+  }*/
 
   return (
     <Layout headerTitle="curated by me">
       <Head title="Curated" />
-      <Container className="my-3">
+
+      <Container>
+        {/*
+        <Row>
+          <Col>
+            <input
+              type="text"
+              aria-label="Search"
+              placeholder="Search posts"
+              value={state.query}
+              onChange={handleInputChange}
+            />
+          </Col>
+        </Row>
+      */}
         <Row>
           <Col>
             {data.allMarkdownRemark.edges.map(edge => {

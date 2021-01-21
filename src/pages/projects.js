@@ -17,18 +17,25 @@ const ProjectPage = () => {
         image: medisale,
       },
       {
-        title: "Personal Website",
+        title: "Porfolio-Frontend",
         tools: ["NodeJS", "ReactJS", "Gatsby", "Bootstrap"],
         url: "https://github.com/wutsqo/portfolio",
-        desc: "This website, handcrafted from scratch using Gatsby",
+        desc: "This website's frontend. Handcrafted using React + Gatsby",
         image: personalsite,
       },
+      {
+        title: "Porfolio-Backend",
+        tools: ["Django", "Rest Framework"],
+        url: "https://github.com/wutsqo/portfolio-backend",
+        desc: "This website's backend. Handcrafted using Django Rest Framework",
+        image: personalsite,
+      } /*
       {
         title: "Kokorobot Line",
         tools: ["Python", "Flask"],
         url: "",
         desc: "A Multi purpose line bot",
-      },
+      },*/,
       {
         title: "Royatul Aliyah",
         tools: ["Python", "Django", "Bootstrap"],
@@ -36,12 +43,13 @@ const ProjectPage = () => {
         desc: "Website Angkatan 6 SMAN 1 Sumatera Barat",
         image: royah,
       },
+      /*
       {
         title: "Board of Thoughts",
         tools: ["Python", "Django", "Bootstrap"],
         url: "https://notes.wutsqo.me",
         desc: "A Microblogging platform where I can share my thoughts",
-      },
+      },*/
       {
         title: "LTMPT Scraper",
         tools: ["Python"],

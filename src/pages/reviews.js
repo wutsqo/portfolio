@@ -8,7 +8,7 @@ const ReviewsPage = () => {
       <Container className="py-0">
         <Row>
           <Col>
-            <p className="text-center">Books | Movies</p>
+            <p className="text-center">Under Development</p>
           </Col>
         </Row>
       </Container>

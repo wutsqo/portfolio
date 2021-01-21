@@ -32,6 +32,4 @@ Singkatnya, novel ini menegaskan Green sebagai penulis kehidupan remaja yang heb
 
 ### Related Links
 
-- [Medium Post](https://wutsqo.medium.com/resensi-novel-turtles-all-the-way-down-c3dbba88c5b7)
-
 - [Goodreads Page](https://www.goodreads.com/book/show/39800802-turtles-all-the-way-down)

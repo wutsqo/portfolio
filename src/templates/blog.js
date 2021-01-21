@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import { graphql } from "gatsby"
 import Head from "../components/head"
 import blogStyles from "./blog.module.scss"
+import { Disqus } from "gatsby-plugin-disqus"
 
 export const query = graphql`
   query($slug: String!) {
@@ -29,6 +30,10 @@ const Blog = props => {
         className={blogStyles.content}
         dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}
       ></div>
+      <div className="mt-5">
+        <hr />
+        <Disqus />
+      </div>
     </Layout>
   )
 }
