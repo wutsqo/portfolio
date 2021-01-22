@@ -38,3 +38,20 @@ $darkblue: #0E141B;
     width:180px;
     height:160px;
 }
+
+.review-card {
+    width: 150px;
+    height: 250px;
+    background-color: $lightblue;
+    display: block;
+}
+
+.review-image {
+    width: 150px;
+    height: 200px;
+}
+
+.review-title {
+ 
+    transition: opacity .2s, visibility .2s;
+}

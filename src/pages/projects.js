@@ -17,14 +17,14 @@ const ProjectPage = () => {
         image: medisale,
       },
       {
-        title: "Porfolio-Frontend",
+        title: "Portfolio-Frontend",
         tools: ["NodeJS", "ReactJS", "Gatsby", "Bootstrap"],
         url: "https://github.com/wutsqo/portfolio",
         desc: "This website's frontend. Handcrafted using React + Gatsby",
         image: personalsite,
       },
       {
-        title: "Porfolio-Backend",
+        title: "Portfolio-Backend",
         tools: ["Django", "Rest Framework"],
         url: "https://github.com/wutsqo/portfolio-backend",
         desc: "This website's backend. Handcrafted using Django Rest Framework",
