@@ -6,7 +6,7 @@
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "gatsby develop -p 8080",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -16,6 +16,7 @@
   "dependencies": {
     "bootstrap": "^4.5.3",
     "gatsby": "^2.30.3",
+    "gatsby-plugin-create-client-paths": "^2.9.0",
     "gatsby-plugin-disqus": "^1.2.2",
     "gatsby-plugin-react-helmet": "^3.8.0",
     "gatsby-plugin-sass": "^3.0.0",

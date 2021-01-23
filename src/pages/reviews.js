@@ -1,5 +1,6 @@
+import { Link } from "gatsby"
 import React, { useState, useEffect } from "react"
-import { Col, Container, Row } from "react-bootstrap"
+import { Col, Row } from "react-bootstrap"
 import Header from "../components/header"
 import layoutStyles from "../components/layout.module.scss"
 import MyNavbar from "../components/navbar"
@@ -27,7 +28,11 @@ const ReviewsPage = props => {
             <div className="d-flex justify-content-center flex-row flex-wrap">
               {snippets ? (
                 snippets.results.map(edge => {
-                  return <ReviewCard props={edge} />
+                  return (
+                    <Link to={"/review/" + edge.slug}>
+                      <ReviewCard props={edge} />
+                    </Link>
+                  )
                 })
               ) : (
                 <div className="text-center">

@@ -20,16 +20,16 @@ function MyNavbar() {
       />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link as={Link} activeClassName="active" to="/about">
+          <Nav.Link as={Link} activeClassName="active" to="/about/">
             about
           </Nav.Link>
-          <Nav.Link as={Link} activeClassName="active" to="/projects">
+          <Nav.Link as={Link} activeClassName="active" to="/projects/">
             projects
           </Nav.Link>
-          <Nav.Link as={Link} activeClassName="active" to="/posts">
+          <Nav.Link as={Link} activeClassName="active" to="/posts/">
             curated
           </Nav.Link>
-          <Nav.Link as={Link} activeClassName="active" to="/reviews">
+          <Nav.Link as={Link} activeClassName="active" to="/reviews/">
             reviews
           </Nav.Link>
         </Nav>
