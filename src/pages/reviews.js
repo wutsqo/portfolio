@@ -1,12 +1,11 @@
 import { Link } from "gatsby"
 import React, { useState, useEffect } from "react"
-import { Col, Container, Row } from "react-bootstrap"
+import { Col, Row } from "react-bootstrap"
 import Header from "../components/header"
-import layoutStyles from "../components/layout.module.scss"
 import Loading from "../components/loading"
 import MyNavbar from "../components/navbar"
 import { Router } from "@reach/router"
-import { Button } from "bootstrap"
+import layoutStyles from "../components/layout.module.scss"
 
 const ReviewsPage = props => {
   return (
