@@ -46,7 +46,7 @@ const ProjectCard = props => {
           />
         )}
 
-        <div>
+        <div className="col">
           <div className="p-3">
             <h5>{props.data.title} </h5>
             <p>{props.data.desc}</p>
