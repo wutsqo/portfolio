@@ -9,7 +9,7 @@ const AboutPage = () => {
       <Head title="About" />
       <Container className="my-3">
         <Row>
-          <Col>
+          <Col style={{ fontSize: "large" }}>
             <h4>call me wutsqo.</h4>
             <p>
               i am 19 years old. i love to read, watch, and code. i like playing
@@ -19,24 +19,29 @@ const AboutPage = () => {
             <br />
             <h4>education</h4>
             <p>
-              <li>SMAN 1 Sumatera Barat</li>
-              <li>Computer Science - Universitas Indonesia</li>
+              <p>computer science - universitas indonesia</p>
             </p>
             <br />
             <h4>i speak</h4>
             <p>
-              <li>native: bahasa indonesia, minang</li>
-              <li>fluent: english</li>
-              <li>beginner: japanese</li>
+              bahasa indonesia (native) <br />
+              bahaso minang (native) <br />
+              english (fluent) <br />
+              japanese (absolute beginner) <br />
             </p>
             <br />
             <h4>tech stacks</h4>
             <p>
-              <li>language: python, java, html, css, javascript</li>
-              <li>framework: django, bootstrap, reactjs, gatsby</li>
-              <li>tools: git, figma, inkscape, vscode</li>
+              languages: <br />
+              python, java, html, css, javascript
+            </p>
+            <p>
+              technologies: <br /> django, reactjs, gatsby, tailwindcss, git,
+              figma, firebase
             </p>
             <br />
+            <h4>favorite artist</h4>
+            <p>yorushika, yoasobi, twice</p>
           </Col>
         </Row>
       </Container>
