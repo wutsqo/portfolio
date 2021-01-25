@@ -8,7 +8,7 @@ author: "Muhammad Urwatil Wutsqo"
 
 Setelah sukses besar dengan novel _The Fault in Our Stars_, John Green kembali menerbitkan novel baru berjudul Turtles All The Way Down. Buku ini mungkin termasuk salah satu buku yang sulit untuk disukai oleh sebagian orang.
 
-![Turtles All The Way Down Cover](./review-turtles-all-the-way-down/tatwd-cover.png)
+![Turtles All The Way Down Cover](../../images/tatwd-cover.png)
 
 Aza Holmes, tokoh utama dalam cerita ini merupakan seorang pengidap OCD (_Obsessive compulsive disorder_). OCD merupakan kelainan psikologis yang menyebabkan seseorang memiliki pikiran, dorongan, dan perilaku yang terus berlanjut meski berdampak negatif pada dirinya. Aza selalu terpaku pada satu hal: ia tidak mau ada bakteri _C. diff_ masuk ke dalam tubuhnya, yang menurutnya dapat membuat dirinya sekarat.
 

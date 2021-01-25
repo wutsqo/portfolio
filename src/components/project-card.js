@@ -1,6 +1,6 @@
 import React from "react"
 import { Card, Col, Row, Button } from "react-bootstrap"
-import layoutStyles from "./layout.module.scss"
+import layoutStyles from "../styles/layout.module.scss"
 import logo from "../images/logo.png"
 
 const ProjectCard = props => {

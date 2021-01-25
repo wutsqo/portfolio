@@ -3,7 +3,7 @@ import MyFooter from "./footer"
 import MyNavbar from "./navbar"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../styles/index.scss"
-import layoutStyles from "./layout.module.scss"
+import layoutStyles from "../styles/layout.module.scss"
 import Header from "./header"
 
 const Layout = props => {

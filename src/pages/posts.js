@@ -2,7 +2,7 @@ import React from "react"
 import { Col, Container, Row } from "react-bootstrap"
 import Layout from "../components/layout"
 import { Link, graphql, useStaticQuery } from "gatsby"
-import postsStyles from "./posts.module.scss"
+import postsStyles from "../styles/posts.module.scss"
 import Head from "../components/head"
 
 const CuratedPage = () => {
@@ -25,27 +25,6 @@ const CuratedPage = () => {
       }
     }
   `)
-  /*
-  const [state, setState] = useState({
-    filteredPosts: [],
-    query: "",
-  })
-
-  const handleInputChange = event => {
-    const query = event.target.value
-    const filteredPosts = data.allMarkdownRemark.edges.filter(post => {
-      const { description, title, tags } = post.node.frontmatter
-      return (
-        description.toLowerCase().includes(query.toLowerCase()) ||
-        title.toLowerCase().includes(query.toLowerCase()) ||
-        (tags && tags.join("").toLowerCase().includes(query.toLowerCase()))
-      )
-    })
-    setState({
-      query,
-      filteredPosts,
-    })
-  }*/
 
   return (
     <Layout headerTitle="curated by me">

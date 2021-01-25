@@ -5,7 +5,7 @@ import Header from "../components/header"
 import Loading from "../components/loading"
 import MyNavbar from "../components/navbar"
 import { Router } from "@reach/router"
-import layoutStyles from "../components/layout.module.scss"
+import layoutStyles from "../styles/layout.module.scss"
 
 const ReviewsPage = props => {
   return (

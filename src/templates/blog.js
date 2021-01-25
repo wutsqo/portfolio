@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
 import Head from "../components/head"
-import blogStyles from "./blog.module.scss"
+import blogStyles from "../styles/blog.module.scss"
 import { Disqus } from "gatsby-plugin-disqus"
 
 export const query = graphql`
