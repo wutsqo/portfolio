@@ -1,6 +1,6 @@
 import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
-import { FaRegEnvelope, FaGithub } from "react-icons/fa"
+import { FaRegEnvelope, FaGithub, FaLine } from "react-icons/fa"
 import Emoji from "../components/emoji"
 import Head from "../components/head"
 import Particles from "react-particles-js"
@@ -102,6 +102,15 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <FaRegEnvelope />
+              </a>
+              &nbsp;&nbsp;
+              <a
+                href="http://line.me/ti/p/~wutsqoo"
+                target="_blank"
+                style={{ color: "white" }}
+                rel="noopener noreferrer"
+              >
+                <FaLine />
               </a>
             </h2>
           </Col>

@@ -12,9 +12,9 @@ const AboutPage = () => {
           <Col style={{ fontSize: "large" }}>
             <h4>call me wutsqo.</h4>
             <p>
-              i am 19 years old. i love to read, watch, and code. i like playing
-              valorant as well. aiming to be a fullstack web developer in the
-              near future.
+              i am 19 years old. i love to read, watch, and code. a passionate
+              and quick learner who is aiming to be a fullstack web developer in
+              the near future.
             </p>
             <br />
             <h4>education</h4>
@@ -41,7 +41,17 @@ const AboutPage = () => {
             </p>
             <br />
             <h4>favorite artist</h4>
-            <p>yorushika, yoasobi, twice</p>
+            <p>aimer, yorushika, yoasobi, twice</p>
+            <br />
+            <h4>favorite video games</h4>
+            <p>valorant</p>
+            <br />
+            <h4>reachable via</h4>
+            <p>
+              email: mail [at] wutsqo [dot] me
+              <br />
+              line messenger: wutsqoo
+            </p>
           </Col>
         </Row>
       </Container>
