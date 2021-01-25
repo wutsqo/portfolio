@@ -21,7 +21,23 @@ const AboutPage = () => {
             <br />
             <h4>education</h4>
             <p>
-              <p>computer science - universitas indonesia</p>
+              computer science - universitas indonesia <br />
+              graduation: 2024 (expected)
+              {/** 
+              <details>
+                <summary>relevant courseworks</summary>
+                <p>
+                  <li>Discrete Mathematics</li>
+                  <li>Linear Algebra</li>
+                  <li>Calculus</li>
+                  <li>Object-Oriented Programming</li>
+                  <li>Data Structures and Algorithms</li>
+                  <li>Web Design and Programming</li>
+                  <li>Databases</li>
+                  <li>Advanced Programming</li>
+                </p>
+              </details>
+              */}
             </p>
             <br />
             <h4>i speak</h4>
