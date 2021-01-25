@@ -54,7 +54,7 @@ const ProjectCard = props => {
         )}
 
         <div className="col">
-          <div className="py-3 px-4">
+          <div className="py-2 px-0">
             <li>
               <h5>{props.data.title} </h5>
             </li>
@@ -71,27 +71,33 @@ const ProjectCard = props => {
             </div>
 
             <p>{props.data.desc}</p>
-            <i className="font-weight-light">
+            <span className="font-weight-light" style={{ fontSize: "small" }}>
               {props.data.repoUrl ? (
-                <a
-                  href={props.data.repoUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaGitAlt /> {props.data.repoUrl}
-                </a>
+                <span>
+                  <FaGitAlt /> &nbsp;
+                  <a
+                    href={props.data.repoUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {props.data.repoUrl}
+                  </a>
+                </span>
               ) : null}{" "}
               <br />
               {props.data.liveUrl ? (
-                <a
-                  href={props.data.liveUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaGlobe /> {props.data.liveUrl}
-                </a>
+                <span>
+                  <FaGlobe /> &nbsp;
+                  <a
+                    href={props.data.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {props.data.liveUrl}
+                  </a>
+                </span>
               ) : null}
-            </i>
+            </span>
           </div>
         </div>
       </Row>

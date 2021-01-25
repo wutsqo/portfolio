@@ -27,7 +27,7 @@ const ScrollTopArrow = () => {
     <FaChevronCircleUp
       className="scrollTop"
       onClick={scrollTop}
-      style={{ height: 40, display: showScroll ? "flex" : "none" }}
+      style={{ height: 50, width: 50, display: showScroll ? "flex" : "none" }}
     />
   )
 }
