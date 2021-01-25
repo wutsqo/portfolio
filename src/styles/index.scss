@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
 
 $darkgrey: #252525;
-$lightblue: #182635;
-$darkblue: #0E141B;
+$lightblue: rgb(24, 38, 53);
+$darkblue: rgb(14, 20, 27);
 
 html {
   font-family: 'Rubik', sans-serif;
@@ -16,7 +16,7 @@ body {
   background-color: $darkblue;
   color: white;
   font-family: 'Rubik', sans-serif;
-  overflow-y:scroll;
+  
 }
 
 body::-webkit-scrollbar-track {
@@ -96,4 +96,17 @@ hr {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.center-screen {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.particle-bg {
+  height:100vh;
 }
