@@ -7,7 +7,7 @@ const NotFound = () => {
   return (
     <Layout headerTitle="Page Not Found">
       <Head title="Ugh, Not Found" />
-      <p className="text-center">
+      <p className="text-center" data-sal="slide-up">
         <h1 className="display-1 mb-5">404</h1>
         <Link to="/">
           {" "}

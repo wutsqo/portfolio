@@ -47,7 +47,7 @@ const CuratedPage = () => {
         </Row>
       */}
         <Row>
-          <Col>
+          <Col data-sal="slide-up">
             {data.allMarkdownRemark.edges.map(edge => {
               return (
                 <div className={postsStyles.post}>
