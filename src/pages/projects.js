@@ -1,10 +1,11 @@
 import React from "react"
 import Head from "../components/head"
 import Projects from "../components/projects"
-import { Col, Row, Button } from "react-bootstrap"
+import { Row, Button } from "react-bootstrap"
 import logo from "../images/logo.png"
 import projectsStyles from "../styles/projects.module.scss"
 import MyNavbar from "../components/navbar"
+import MyFooter from "../components/footer"
 import Header from "../components/header"
 import layoutStyles from "../styles/layout.module.scss"
 
@@ -24,6 +25,7 @@ const ProjectPage = () => {
           <ProjectCard data={item} />
         ))}
       </div>
+      <MyFooter />
     </div>
   )
 }
