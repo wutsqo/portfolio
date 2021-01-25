@@ -1,0 +1,21 @@
+$lightblue: rgb(24, 38, 53);
+$darkblue: rgb(14, 20, 27);
+
+.card {
+  background-color: $darkblue;
+  color: inherit;
+  margin-bottom: 2rem;
+  padding: 1rem 0 1rem 0;
+}
+
+.img {
+  object-fit: contain;
+  height:250px;
+}
+
+.container {
+  display: flex;
+  margin: auto;
+  max-width: 900px;
+  flex-direction: column;
+}

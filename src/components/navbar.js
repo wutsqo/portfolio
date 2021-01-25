@@ -2,7 +2,7 @@ import { Navbar, Nav } from "react-bootstrap"
 import { Link } from "gatsby"
 import React from "react"
 import { FaHome } from "react-icons/fa"
-import navbarStyles from "./navbar.module.scss"
+import navbarStyles from "../styles/navbar.module.scss"
 
 function MyNavbar() {
   return (

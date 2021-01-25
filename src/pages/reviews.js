@@ -18,11 +18,7 @@ const ReviewsPage = props => {
 
 const ReviewCard = props => {
   return (
-    <div
-      className={[layoutStyles.reviewCard, "m-2 p-0 shadow text-center"].join(
-        " "
-      )}
-    >
+    <div className={[layoutStyles.reviewCard, "m-2 p-0 text-center"].join(" ")}>
       <img
         src={props.props.cover_url}
         className={layoutStyles.reviewImage}
