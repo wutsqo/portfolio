@@ -8,10 +8,12 @@ import MyNavbar from "../components/navbar"
 import MyFooter from "../components/footer"
 import Header from "../components/header"
 import layoutStyles from "../styles/layout.module.scss"
+import ScrollTopArrow from "../components/scroll"
 
 const ProjectPage = () => {
   return (
     <div>
+      <ScrollTopArrow />
       <Head title="Projects" />
       <div className={layoutStyles.header}>
         <MyNavbar />

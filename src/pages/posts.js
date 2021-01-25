@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import postsStyles from "../styles/posts.module.scss"
 import Head from "../components/head"
+import ScrollTopArrow from "../components/scroll"
 
 const CuratedPage = () => {
   const data = useStaticQuery(graphql`
@@ -31,6 +32,7 @@ const CuratedPage = () => {
       <Head title="Curated" />
 
       <Container>
+        <ScrollTopArrow />
         {/*
         <Row>
           <Col>

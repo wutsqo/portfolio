@@ -4,6 +4,7 @@ import { graphql } from "gatsby"
 import Head from "../components/head"
 import blogStyles from "../styles/blog.module.scss"
 import { Disqus } from "gatsby-plugin-disqus"
+import ScrollTopArrow from "../components/scroll"
 
 export const query = graphql`
   query($slug: String!) {
@@ -25,6 +26,7 @@ const Blog = props => {
       frontmatter={props.data.markdownRemark.frontmatter}
       timeToRead={props.data.markdownRemark.timeToRead}
     >
+      <ScrollTopArrow />
       <Head title={props.data.markdownRemark.frontmatter.title} />
       <div
         className={blogStyles.content}
