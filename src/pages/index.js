@@ -69,8 +69,9 @@ export default function Home() {
       </Container>
       <Container className="center-screen text-center">
         <Row>
-          <Col className="py-5 ">
+          <Col className="py-5">
             <Typer
+              data-sal="slide-up"
               dataText={[
                 "Hi There!    ",
                 "! السلام عليكم    ",
@@ -78,14 +79,14 @@ export default function Home() {
                 "こんにちは！    ",
               ]}
             ></Typer>
-            <p>
+            <p data-sal="slide-up">
               Computer Science Student from Indonesia{" "}
               <Emoji label="Indonesia" symbol="🇮🇩" />
               <br />
               Seems you just discovered my personal space on the internet.
               Enjoy!
             </p>
-            <h2>
+            <h2 data-sal="slide-up">
               <a
                 href="https://github.com/wutsqo"
                 target="_blank"

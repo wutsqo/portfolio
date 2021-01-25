@@ -32,7 +32,7 @@ const ProjectPage = () => {
 
 const ProjectCard = props => {
   return (
-    <div className={projectsStyles.card}>
+    <div className={projectsStyles.card} data-sal="slide-up">
       <Row>
         {props.data.image ? (
           <img

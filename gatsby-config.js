@@ -47,5 +47,6 @@ module.exports = {
       resolve: `gatsby-plugin-create-client-paths`,
       options: { prefixes: [`/reviews/*`] },
     },
+    `gatsby-plugin-scroll-reveal`,
   ],
 }
