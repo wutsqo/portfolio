@@ -138,3 +138,45 @@ hr {
     opacity: 0.5;
   }
 }
+
+.slider-wrapper {
+  font-size: 40px;
+  color:#aaa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slider{
+  height: 50px;
+  overflow: hidden;
+}
+.slider div {
+  color:#fff;
+  height: 50px;
+  margin-bottom: 50px;
+  padding: 2px 15px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.slider-text1 {
+  background: none;
+  animation: slide 10s linear infinite;
+}
+.slider-text2 {
+  background: none;
+}
+.slider-text3 {
+  background: none;
+}
+@keyframes slide {
+  0% {margin-top:-300px;}
+  5% {margin-top:-200px;}
+  33% {margin-top:-200px;}
+  38% {margin-top:-100px;}
+  66% {margin-top:-100px;}
+  71% {margin-top:0px;}
+  100% {margin-top:0px;}
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.3); }

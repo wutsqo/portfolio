@@ -9,7 +9,7 @@ const Header = props => {
         </div>
       ) : null}
       {props.data.frontmatter ? (
-        <div>
+        <div data-sal="slide-down">
           <h1 className="pt-5 mt-5">{props.data.frontmatter.title}</h1>
           <p>
             {props.data.frontmatter.date} &nbsp; • &nbsp;
