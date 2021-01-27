@@ -36,10 +36,10 @@ const ProjectsData = {
       desc: "A Multi purpose line bot",
     },*/,
     {
-      title: "Royatul Aliyah",
-      tools: ["Python", "Django", "Bootstrap"],
+      title: "Royatul Aliyah Website",
+      tools: ["Node.js", "Gatsby", "Tailwind CSS", "GraphQL"],
       liveUrl: "https://royatulaliyah.wutsqo.me",
-      repoUrl: "https://github.com/wutsqo/royatulaliyah",
+      repoUrl: "https://github.com/wutsqo/royah",
       desc: "Website for Angkatan 6 SMAN 1 Sumatera Barat (Class of 2019).",
       image: projectImages.royah,
     },
