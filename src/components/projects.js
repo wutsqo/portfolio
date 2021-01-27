@@ -12,29 +12,14 @@ const ProjectsData = {
       image: projectImages.medisale,
     },
     {
-      title: "Portfolio-Frontend",
-      tools: ["NodeJS", "ReactJS", "Gatsby", "Bootstrap"],
+      title: "Ikura",
+      tools: ["NodeJS", "Gatsby", "React Bootstrap"],
       repoUrl: "https://github.com/wutsqo/portfolio",
       liveUrl: "https://wutsqo.me",
       desc:
-        "This exact website's frontend part. Handcrafted using Gatsby JS. Hosted on Netlify. Connected to backend part via REST API.",
+        "This exact website. Handcrafted using Gatsby and hosted on Netlify.",
       image: projectImages.portfolio,
     },
-    {
-      title: "Portfolio-Backend",
-      tools: ["Django", "Rest Framework"],
-      repoUrl: "https://github.com/wutsqo/portfolio-backend",
-      liveUrl: "https://backend-keren.herokuapp.com",
-      desc:
-        "This website's backend part. Made using Django Rest Framework. Hosted on heroku. Currently used for storing reviews data.",
-      image: projectImages.backend,
-    } /*
-    {
-      title: "Kokorobot Line",
-      tools: ["Python", "Flask"],
-      liveUrl: "",
-      desc: "A Multi purpose line bot",
-    },*/,
     {
       title: "Royatul Aliyah Website",
       tools: ["Node.js", "Gatsby", "Tailwind CSS", "GraphQL"],
@@ -100,3 +85,20 @@ const ProjectsData = {
 }
 
 export default ProjectsData
+
+/*
+    {
+      title: "Portfolio-Backend",
+      tools: ["Django", "Rest Framework"],
+      repoUrl: "https://github.com/wutsqo/portfolio-backend",
+      liveUrl: "https://backend-keren.herokuapp.com",
+      desc:
+        "This website's backend part. Made using Django Rest Framework. Hosted on heroku. Currently used for storing reviews data.",
+      image: projectImages.backend,
+    } 
+    {
+      title: "Kokorobot Line",
+      tools: ["Python", "Flask"],
+      liveUrl: "",
+      desc: "A Multi purpose line bot",
+    },*/

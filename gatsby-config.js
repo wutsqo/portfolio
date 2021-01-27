@@ -48,5 +48,18 @@ module.exports = {
       options: { prefixes: [`/reviews/*`] },
     },
     `gatsby-plugin-scroll-reveal`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Muhammad Urwatil Wutsqo`,
+        short_name: `Ikura`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#a2466c`,
+        display: `standalone`,
+        icon: `src/images/logo.png`,
+      },
+    },
+    `gatsby-plugin-offline`,
   ],
 }

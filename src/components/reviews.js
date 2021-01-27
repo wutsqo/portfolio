@@ -1,12 +1,12 @@
 import { Link } from "gatsby"
 import React, { useState, useEffect } from "react"
 import { Col, Row } from "react-bootstrap"
-import Header from "../components/header"
-import Loading from "../components/loading"
-import MyNavbar from "../components/navbar"
+import Header from "./header"
+import Loading from "./loading"
+import MyNavbar from "./navbar"
 import { Router } from "@reach/router"
 import layoutStyles from "../styles/layout.module.scss"
-import SEO from "../components/seo"
+import SEO from "./seo"
 
 const ReviewsPage = props => {
   return (
