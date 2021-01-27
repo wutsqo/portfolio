@@ -1,5 +1,4 @@
 import React from "react"
-import Head from "../components/head"
 import Projects from "../components/projects"
 import { Row } from "react-bootstrap"
 import logo from "../images/logo.png"
@@ -10,12 +9,13 @@ import Header from "../components/header"
 import layoutStyles from "../styles/layout.module.scss"
 import ScrollTopArrow from "../components/scroll"
 import { FaGitAlt, FaGlobe } from "react-icons/fa"
+import SEO from "../components/seo"
 
 const ProjectPage = () => {
   return (
     <div>
       <ScrollTopArrow />
-      <Head title="Projects" />
+      <SEO title="projects" />
       <div className={layoutStyles.header}>
         <MyNavbar />
         <div className={layoutStyles.container} style={{ minHeight: "auto" }}>

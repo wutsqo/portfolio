@@ -3,8 +3,8 @@ import { Col, Container, Row } from "react-bootstrap"
 import Layout from "../components/layout"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import postsStyles from "../styles/posts.module.scss"
-import Head from "../components/head"
 import ScrollTopArrow from "../components/scroll"
+import SEO from "../components/seo"
 
 const CuratedPage = () => {
   const data = useStaticQuery(graphql`
@@ -29,7 +29,7 @@ const CuratedPage = () => {
 
   return (
     <Layout headerTitle="curated by me">
-      <Head title="Curated" />
+      <SEO title="Curated" />
 
       <Container>
         <ScrollTopArrow />

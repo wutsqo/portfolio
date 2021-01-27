@@ -2,16 +2,16 @@ import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
 import { FaRegEnvelope, FaGithub, FaLine } from "react-icons/fa"
 import Emoji from "../components/emoji"
-import Head from "../components/head"
 import Particles from "react-particles-js"
 import MyNavbar from "../components/navbar"
 import { Link } from "gatsby"
+import SEO from "../components/seo"
 
 export default function Home() {
   return (
     <div>
       <MyNavbar />
-      <Head title="Homepage"></Head>
+      <SEO title="Homepage" />
       <Container fluid className="center-screen h-100">
         <Particles className="h-100" params={particleParams} />
       </Container>

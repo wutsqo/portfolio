@@ -1,14 +1,14 @@
 import React from "react"
 import { Col, Container, Row } from "react-bootstrap"
-import Head from "../components/head"
 import Layout from "../components/layout"
 import ScrollTopArrow from "../components/scroll"
+import SEO from "../components/seo"
 
 const AboutPage = () => {
   return (
     <Layout headerTitle="about">
       <ScrollTopArrow />
-      <Head title="About" />
+      <SEO title="About" />
       <Container className="my-3">
         <Row>
           <Col style={{ fontSize: "large" }}>

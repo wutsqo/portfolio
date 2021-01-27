@@ -1,10 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
-import Head from "../components/head"
 import blogStyles from "../styles/blog.module.scss"
 import { Disqus } from "gatsby-plugin-disqus"
 import ScrollTopArrow from "../components/scroll"
+import SEO from "../components/seo"
 
 export const query = graphql`
   query($slug: String!) {
@@ -27,7 +27,7 @@ const Blog = props => {
       timeToRead={props.data.markdownRemark.timeToRead}
     >
       <ScrollTopArrow />
-      <Head title={props.data.markdownRemark.frontmatter.title} />
+      <SEO title={props.data.markdownRemark.frontmatter.title} />
       <div
         className={blogStyles.content}
         dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}

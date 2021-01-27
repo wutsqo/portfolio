@@ -6,7 +6,7 @@ import Loading from "../components/loading"
 import MyNavbar from "../components/navbar"
 import { Router } from "@reach/router"
 import layoutStyles from "../styles/layout.module.scss"
-import Head from "../components/head"
+import SEO from "../components/seo"
 
 const ReviewsPage = props => {
   return (
@@ -41,7 +41,7 @@ const ReviewsList = props => {
   }, [])
   return (
     <div>
-      <Head title="Reviews" />
+      <SEO title="Reviews" />
       <div className={layoutStyles.header}>
         <MyNavbar />
         <div className={layoutStyles.container} style={{ minHeight: "auto" }}>

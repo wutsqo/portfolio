@@ -1,7 +1,6 @@
 import { Container } from "react-bootstrap"
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
-import Emoji from "./emoji"
 
 function MyFooter() {
   const author = useStaticQuery(graphql`

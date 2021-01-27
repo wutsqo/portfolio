@@ -9,7 +9,7 @@ const Header = props => {
         </div>
       ) : null}
       {props.data.frontmatter ? (
-        <div data-sal="slide-down">
+        <div data-sal="fade">
           <h1 className="pt-5 mt-5">{props.data.frontmatter.title}</h1>
           <p>
             {props.data.frontmatter.date} &nbsp; • &nbsp;
