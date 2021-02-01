@@ -16,8 +16,7 @@ const ProjectsData = {
       tools: ["NodeJS", "Gatsby", "React Bootstrap"],
       repoUrl: "https://github.com/wutsqo/portfolio",
       liveUrl: "https://wutsqo.me",
-      desc:
-        "This exact website. Handcrafted using Gatsby and hosted on Netlify.",
+      desc: "This exact website. Handcrafted using Gatsby.js.",
       image: projectImages.portfolio,
     },
     {
