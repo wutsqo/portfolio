@@ -28,8 +28,8 @@ const CuratedPage = () => {
   `)
 
   return (
-    <Layout headerTitle="curated by me">
-      <SEO title="Curated" />
+    <Layout headerTitle="posts">
+      <SEO title="Posts" />
 
       <Container>
         <ScrollTopArrow />

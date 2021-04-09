@@ -52,7 +52,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Muhammad Urwatil Wutsqo`,
-        short_name: `Ikura`,
+        short_name: `Wutsqo`,
         start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,

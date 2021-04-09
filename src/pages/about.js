@@ -15,11 +15,7 @@ const AboutPage = () => {
             <ul>
               <li data-sal="slide-up">
                 <h4>call me wutsqo.</h4>
-                <p>
-                  i am 19 years old. i love to read, watch, and code. a
-                  passionate and quick learner who is aiming to be a fullstack
-                  web developer in the near future.
-                </p>
+                <p>i am 19 years old. i love to read, watch, and code.</p>
                 <br />
               </li>
               <li data-sal="slide-up">
@@ -45,7 +41,7 @@ const AboutPage = () => {
                 </p>
                 <br />
               </li>
-              <li data-sal="slide-up">
+              {/* <li data-sal="slide-up">
                 <h4>i speak</h4>
                 <p>
                   bahasa indonesia (native) <br />
@@ -53,6 +49,11 @@ const AboutPage = () => {
                   english (fluent) <br />
                   japanese (absolute beginner) <br />
                 </p>
+                <br />
+              </li> */}
+              <li data-sal="slide-up">
+                <h4>experiences</h4>
+                <p>web engineer @ ristek fasilkom ui (2021-present)</p>
                 <br />
               </li>
               <li data-sal="slide-up">
@@ -63,26 +64,28 @@ const AboutPage = () => {
                 </p>
                 <p>
                   technologies: <br /> django, reactjs, gatsby, tailwindcss,
-                  git, figma, firebase
+                  git, figma
                 </p>
                 <br />
               </li>
               <li data-sal="slide-up">
                 <h4>favorite artist</h4>
-                <p>aimer, yorushika, yoasobi, twice</p>
+                <p>End of the World (Sekai No Owari)</p>
                 <br />
               </li>
               <li data-sal="slide-up">
                 <h4>favorite video games</h4>
-                <p>valorant</p>
+                <p>VALORANT</p>
                 <br />
               </li>
               <li data-sal="slide-up">
                 <h4>reachable via</h4>
                 <p>
-                  email: mail [at] wutsqo [dot] me
+                  email: wutsqo [at] ristek.cs.ui.ac.id
                   <br />
                   line messenger: wutsqoo
+                  <br />
+                  discord: kafka#2008
                 </p>
               </li>
             </ul>

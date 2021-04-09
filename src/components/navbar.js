@@ -27,13 +27,11 @@ function MyNavbar() {
             projects
           </Nav.Link>
           <Nav.Link as={Link} activeClassName="active" to="/posts/">
-            curated
+            posts
           </Nav.Link>
-          {/** 
-          <Nav.Link as={Link} activeClassName="active" to="/reviews/">
-            reviews
+          <Nav.Link href="https://bookshelf.wutsqo.me" activeClassName="active">
+            bookshelf
           </Nav.Link>
-          */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>

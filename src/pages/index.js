@@ -1,6 +1,6 @@
 import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
-import { FaRegEnvelope, FaGithub, FaLine } from "react-icons/fa"
+import { FaRegEnvelope, FaGithub, FaLine, FaLinkedin } from "react-icons/fa"
 import Emoji from "../components/emoji"
 import Particles from "react-particles-js"
 import MyNavbar from "../components/navbar"
@@ -40,7 +40,8 @@ export default function Home() {
                 Seems you just discovered my personal space on the internet.
                 Enjoy! <br /> <br /> <Link to="/about">about</Link> •{" "}
                 <Link to="/projects">projects</Link> •{" "}
-                <Link to="/posts">blog</Link>
+                <Link to="/posts">blog</Link>•{" "}
+                <a href="https://bookshelf.wutsqo.me">bookshelf</a>
               </p>
               <h2>
                 <a
@@ -68,6 +69,15 @@ export default function Home() {
                   rel="noopener noreferrer"
                 >
                   <FaLine className="grow" />
+                </a>
+                &nbsp;&nbsp;
+                <a
+                  href="https://linkedin.com/in/wutsqo/"
+                  target="_blank"
+                  style={{ color: "white" }}
+                  rel="noopener noreferrer"
+                >
+                  <FaLinkedin className="grow" />
                 </a>
               </h2>
             </div>

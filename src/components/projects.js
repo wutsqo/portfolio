@@ -11,32 +11,32 @@ const ProjectsData = {
         "Final group project (me, laila, vioren, yona) submission for Web Design and Programming courses at Faculty of Computer Science.",
       image: projectImages.medisale,
     },
-    {
-      title: "Ikura",
-      tools: ["NodeJS", "Gatsby", "React Bootstrap"],
-      repoUrl: "https://github.com/wutsqo/portfolio",
-      liveUrl: "https://wutsqo.me",
-      desc: "This exact website. Handcrafted using Gatsby.js.",
-      image: projectImages.portfolio,
-    },
+    // {
+    //   title: "Portfolio",
+    //   tools: ["NodeJS", "Gatsby", "React Bootstrap"],
+    //   repoUrl: "https://github.com/wutsqo/portfolio",
+    //   liveUrl: "https://wutsqo.me",
+    //   desc: "This exact website. Handcrafted using Gatsby.js.",
+    //   image: projectImages.portfolio,
+    // },
     {
       title: "Royatul Aliyah Website",
       tools: ["Node.js", "Gatsby", "Tailwind CSS", "GraphQL"],
-      liveUrl: "https://royatulaliyah.wutsqo.me",
-      repoUrl: "https://github.com/wutsqo/royah",
+      liveUrl: "https://royah.me",
+      repoUrl: "https://github.com/royatulaliyah/web-royah",
       desc: "Website for Angkatan 6 SMAN 1 Sumatera Barat (Class of 2019).",
       image: projectImages.royah,
     },
 
-    {
-      title: "Board of Thoughts",
-      tools: ["Python", "Django", "Bootstrap"],
-      liveUrl: "https://notes.wutsqo.me",
-      repoUrl: "https://github.com/wutsqo/thought-board",
-      desc:
-        "A Microblogging platform where I can put my random thoughts on the internet since I stopped using social media.",
-      image: projectImages.notes,
-    },
+    // {
+    //   title: "Board of Thoughts",
+    //   tools: ["Python", "Django", "Bootstrap"],
+    //   liveUrl: "https://notes.wutsqo.me",
+    //   repoUrl: "https://github.com/wutsqo/thought-board",
+    //   desc:
+    //     "A Microblogging platform where I can put my random thoughts on the internet since I stopped using social media.",
+    //   image: projectImages.notes,
+    // },
     {
       title: "LTMPT Scraper",
       tools: ["Python"],
